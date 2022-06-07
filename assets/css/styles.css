@@ -10,16 +10,16 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Helvetica, sans-serif;
-  margin: 50px;
-  max-width: 1000px;
 
 }
 
 .header {
-  background-color: rgb(255, 197, 89);
-  height: 75px;
+  background-color: #7FBBBF;
+  height: 50px;
   display: grid;
   grid-template-columns: 100px 1fr 100px;
+  padding-left: 50px;
+  padding-top: 30px;
 }
 
 .content {
@@ -34,7 +34,8 @@ body {
 .footer {
   background-color: rgb(255, 197, 89);
   height: auto;
-
+  padding-left: 50px;
+  padding-bottom: 30px;
 }
 
 h2 {

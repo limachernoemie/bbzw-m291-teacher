@@ -1,5 +1,6 @@
 const submit = document.getElementById("submit")
 const email = document.getElementById("email")
+const name = document.getElementById("name")
 
 submit.disabled = true
 

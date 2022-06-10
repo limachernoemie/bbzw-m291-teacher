@@ -1,6 +1,5 @@
 const submit = document.getElementById("submit")
 const email = document.getElementById("email")
-const name = document.getElementById("name")
 submit.disabled = true
 
 const validate = () => {
@@ -18,13 +17,13 @@ email.addEventListener("keyup", (event) => {
 
 submit.addEventListener("click", async (event) => {
     event.preventDefault()
-    const result = await databaseClient.insertInto("users", ["email"],["name"], [email.value])
+    const result = await databaseClient.insertInto("users", ["email"], [email.value])
     if (result.error) {
         alert("Datenbank Fehler: " + JSON.stringify(result.error, null, 2))
     }
     else {
         // Weiterleitung auf die Game Page  
-       // location.href = "game.html"
+       location.href = "game.html"
     }
 
 })

@@ -1,12 +1,58 @@
 body {
-    font-family: "Courier";
-  }
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, sans-serif;
+
+}
+
+.header {
+  background-color: #00559D;
+  height: 90px;
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  padding-left: 150px;
+  padding-top: 10px;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  height: 25px;
+  color: white;
+}
+
+.footer {
+  background-color: #00559D;
+  height: auto;
+  padding-top: 30px;
+  padding-left: 150px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
   
   #score,
   .highscore {
     text-align: center;
     font-size: 2rem;
     margin-top: 20px;
+  
   }
   
   
@@ -16,6 +62,7 @@ body {
     height: 300px;
     border: 2px solid black;
     margin: auto;
+    margin-top: 100px;
   }
   
   
@@ -95,4 +142,6 @@ body {
       background-position:  -600px 0;
     }
   }
+  
+
   

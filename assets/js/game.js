@@ -35,5 +35,5 @@ setInterval(() => {
     highscore.innerText = scorenum;
     }
    score.innerText = 0;
-  }
+  }   
 }, 50);

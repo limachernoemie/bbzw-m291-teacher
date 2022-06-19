@@ -21,6 +21,17 @@ body {
   padding-top: 10px;
 }
 
+.content {
+  flex: auto;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  max-width: 1000px;
+  font-family: Helvetica, sans-serif;
+} 
+
+
 h1 {
   font-family: Helvetica, sans-serif;
   height: 25px;

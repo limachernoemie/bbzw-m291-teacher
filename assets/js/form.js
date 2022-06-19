@@ -6,6 +6,7 @@ submit.disabled = true
 const validate = () => {
     if (email.value == "") {
         submit.disabled = true
+        
     } else {
         submit.disabled = false
     }
